@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="redbus.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat:ital,wght@0,200;0,300;0,500;0,600;0,700;1,400&family=Poppins:ital,wght@0,400;0,600;1,500&family=Red+Hat+Text:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <title>Red Bus</title>
+</head>
+
+<body>
+    <div class="row nav">
+        <ul class="col-50">
+            <li class="flt-l">
+                <a href="#"><img class="redbus" src="Images/r_logo.png" alt="redbus" </a></li>
+            <li class="flt-l bus_ticket"><a href="# " style="color:white;border-bottom: 3px solid;">BUS TICKETS</a></li>
+            <li class="flt-l"><a href="# ">Ryde&nbsp;<sup>New</sup></a></li>
+            <li class="flt-l"><a href="# ">redRail</a></li>
+            <li class="flt-l"><a href="# ">rPool</a></li>
+        </ul>
+        <ul class="col-50 mr-40 pos-rel">
+            <li class="flt-r">
+                <!-- <a href="# "> -->
+                <div class="dropdown2"><i class="bi bi-person-circle fa-2x p_crcl"></i><i class="fa fa-caret-down uCircle_drop"></i>
+                    <div class="drpdn_cnt2">
+                        <a href="#" style="color: black;">Sign In / Sign Out</a>
+
+                    </div>
+                </div>
+
+
+            </li>
+            <li class="flt-r">
+                <!-- <a href="# "> -->
+                <div class="dropdown">
+                    <button class="dropbtn">Manage Booking</button>
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Bus Tickets</a>
+                        <a href="#">Cancel</a>
+                        <a href="#">Change Travel Date</a>
+                        <a href="#">Show My Ticket</a>
+                        <a href="#">Email/SMS</a>
+                    </div>
+                </div>
+                <!-- </a> -->
+            </li>
+            <li class="flt-r"><a href="# ">Help</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <!-- banner -->
+        <div class="banner">
+            <img class="img_searchBar1" style="border:none" src="Images/7-removebg-preview (1).png" alt="t_searchBar1">
+            <img class="img_searchBar2" style="border:none" src="Images/book-removebg-preview.png" alt="t_searchBar2">
+            <div class="no_natak">
+                <div class="row">
+                    <div class="col-20 mr-40">
+                        <img src="Images/noNatak-removebg-preview.png" style="border: none;" alt="no_natak">
+                    </div>
+                    <div class="col-80">
+                        <div class="heading">NO NATAK, ONLY BEST DISCOUNTS!</div>
+                        <div class="para">Save upto Rs 150* on your bus tickets. Book your favourite seat now.</div>
+                    </div>
+                </div>
+            </div>
+            <img class="pos-rel" src="Images/welcome.png" alt="welcom_img" />
+
+
+            <div class="row search_bar">
+                <div class="col-25 flt-l search_col">
+                    <i class="far fa-building"></i><span class="txtfromTo">&nbsp;&nbsp;FROM</span><input class="from" type="text">
+                    <img class="flt-r two_dir" src="Images/twoDir_toggle-removebg-preview.png" alt="twoDirectioanl" </img>
+                </div>
+                <div class="col-25 flt-l search_col">
+                    <i class="far fa-building ml-12"></i><span class="txtfromTo">&nbsp;&nbsp;TO</span><input class="from" type="text">
+                </div>
+                <div class="col-25 flt-l search_col">
+                    <i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;
+                    <label for="date">DATE</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <div class="col-25 flt-l search_btn">Search Buses</div>
+            </div>
+        </div>
+        <!-- slider -->
+        <div class="slider">
+            <div class="row">
+                <div class="col-33 flt-l img_slider" style="margin-left: 120px;margin-right: -15px">
+                    <div class="para1">Save up to Rs 250 on bus tickets</div>
+                    <img src="Images/first.png" alt="first">
+                    <div class="para1">Use code FIRST</div>
+
+                </div>
+                <div class="col-33 flt-l img_slider">
+
+                    <div class="para1">Save up to Rs 250 on bus tickets</div>
+                    <img src="Images/first.png" alt="first">
+                    <div class="para1">Use code FIRST</div>
+
+                </div>
+                <div class="col-33 flt-l img_slider" style="margin-right: 120px;margin-left: -15px">
+
+                    <div class="para1">Save up to Rs 250 on bus tickets</div>
+                    <img src="Images/first.png" alt="first">
+                    <div class="para1">Use code FIRST</div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- safety -->
+        <div class="row">
+            <div class="row safety ">
+                <div class="col-10">
+                    <img src="Images/plus-removebg-preview.png" alt="plus">
+                </div>
+                <div class="col-90">
+                    <div class="heading1">Safety+</div>
+                    <div class="heading3">Opt to Travel Safe with redBus<span class="know_more">&nbsp;&nbsp;&nbsp;KNOW MORE</span></div>
+                    <div class="para1 mb-35"><i class="fas fa-lightbulb"></i>&nbsp;&nbsp;Look for buses with <img src="Images/plus-removebg-preview - Copy.png" alt="plus"><span class="safety_badge">&nbsp;Safety+</span>&nbsp;&nbsp;tag while booking your journey,</div>
+                    <div class="row">
+                        <div class="col-33">
+                            <div class="highlighted_h">Sanitized Bus</div>
+                            <div class="para">All Safety+ buses are sanitized and disinfected before and after every trip.</div>
+                        </div>
+                        <div class="col-33">
+                            <div class="highlighted_h">Mandatory masks</div>
+                            <div class="para">Proper masks are mandatory for all passengers and bus staff.</div>
+                        </div>
+                        <div class="col-33">
+                            <div class="highlighted_h">Thermal Screening</div>
+                            <div class="para">All passengers will undergo thermal screening. Temperature checks for bus drivers and service staff are done before every trip.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mobile">
+
+            <div class="col-50">
+
+                <div class="heading1">CONVENIENCE ON-THE-GO.</div>
+                <div class="para">
+                    <div>Enjoy the following exclusive features on the redBus app</div>
+                    <br>
+                    <div>Last Minute Booking - In a hurry to book a bus at the last minute? Choose the bus passing from your nearest boarding point and book in a few easy steps.</div>
+                    <br>
+                    <div>Boarding Point Navigation - Never lose your way while travelling to your boarding point!</div>
+                    <br>
+                    <div>Comprehensive Ticket Details- Everything that you need to make the travel hassle free - rest stop details, boarding point images, chat with co-passengers, wake-up alarm and much more!</div>
+                    <br>
+                    <div>Enter your mobile number below to download the redBus mobile app.</div>
+
+                </div>
+                <div class="row">
+                    <div class="drop_num flt-l">
+                        <label for="drop_num"></label>
+                        <select name="number" id="drop_num">
+                            <option value="91">91</option>
+                            <option value="355">355</option>
+                            <option value="213">213</option>
+                            <option value="1684">1684</option>
+                            <option value="376">376</option>
+                            <option value="244">244</option>
+                            <option value="1264">1264</option>
+                            <option value="672">672</option>
+                            <option value="1268">1268</option>
+                            <option value="54">54</option>
+                            <option value="374">374</option>
+                        </select>
+                    </div>
+                    <div class="input_num">
+                        <label for="input_num"></label>
+                        <input type="text" id="input_num" name="mob_num" placeholder="Enter Your Mobile Number">
+                    </div>
+                </div>
+                <div class="row">
+                    <input class="sms_btn" type="button" value="SMS ME THE LINK">
+
+
+                </div>
+                <div class="row">
+                    <div class="apple_icon flt-l">
+                        <i class="fab fa-apple fa-2x margin_i"></i>
+                    </div>
+                    <div class="play_icon">
+                        <i class="fab fa-google-play fa-2x margin_i"></i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-50">
+
+                <img class="img_mobile" src="Images/mobile-removebg-preview.png" alt="mobile">
+
+
+            </div>
+        </div>
+        <img class="bg_building" src="Images/bg-building.png" alt="building">
+        <!-- promise -->
+        <div class="row promise">
+            <div class="row row-fd-col">
+                <div class="promise_icon">
+                    <img class="img_promise" src="Images/promise-removebg-preview.png" alt="promise">
+                </div>
+                <div class="heading1 txt-aln-c mt-5">WE PROMISE TO DELIVER</div>
+            </div>
+        </div>
+        <div class="row promise" style="padding-bottom: 50px;">
+            <div class="col_promise ml-50">
+                <div class="row-fd-col">
+                    <div class="p_col_icon ">
+                        <img src="Images/plus-removebg-preview.png" alt="plus_icon">
+                    </div>
+                    <div class="para p-25">SAFETY+</div>
+                    <div class="para pt-5 p-35 pb-10">With Safety+ we have brought in a set of measures like Sanitized buses, mandatory masks etc. to ensure you travel safely.</div>
+                </div>
+            </div>
+            <div class="col_promise">
+                <div class="row-fd-col">
+                    <div class="p_col_icon ">
+                        <img src="Images/customer_care.png" style="height: 105px;" alt="plus_icon">
+                    </div>
+                    <div class="para p-25">SUPERIOR CUSTOMER SERVICE</div>
+                    <div class="para pt-5 p-35 pb-10">We put our experience and relationships to good use and are available to solve your travel issues.</div>
+                </div>
+            </div>
+            <div class="col_promise">
+                <div class="row-fd-col">
+                    <div class="p_col_icon ">
+                        <img src="Images/lowest_Fare.png" alt="plus_icon">
+                    </div>
+                    <div class="para p-25">LOWEST PRICES</div>
+                    <div class="para pt-5 p-35 pb-10">We always give you the lowest price with the best partner offers.</div>
+                </div>
+            </div>
+            <div class="col_promise">
+                <div class="row-fd-col">
+                    <div class="p_col_icon ">
+                        <img src="Images/benefits.png" alt="plus_icon">
+                    </div>
+                    <div class="para p-25">UNMATCHED BENEFITS</div>
+                    <div class="para pt-5 p-35 pb-10">We take care of your travel beyond ticketing by providing you with innovative and unique benefits.</div>
+                </div>
+            </div>
+        </div>
+        <!-- awards & recognition -->
+        <div class="row-fd-col awards">
+            <div class="heading1 txt-aln-c" style="margin-top: 40px;">AWARDS & RECOGNITION</div>
+            <div class="row">
+                <div class="col-33 mt-100 mb-35 " style="margin-left: 120px;">
+
+                    <div class="para1 ltr_spc_3 txt-aln-c mr-200">Most Innovative
+                        <div>Company</div>
+                    </div>
+                </div>
+                <div class="col-33 mt-100 mb-35 flt-l">
+                    <img src="Images/Brand_Trust_Report.png" alt="business_std ">
+                    <div class="para1 ltr_spc_3 txt-aln-c mr-200" style="margin-top: 22px;">Most Trusted
+                        <div>Brand</div>
+                    </div>
+                </div>
+                <div class="col-33 mt-100 mb-35 flt-l">
+                    <img src="Images/Eye_for_Travel1.png " alt="business_std ">
+                    <div class="para1 ltr_spc_3 txt-aln-c mr-85">Mobile Innovation
+                        <div>Award</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- global presence -->
+        <div class="row-fd-col glob_presence">
+            <div class="heading1 txt-aln-c" style="margin-top: 40px;">OUR GLOBAL PRESENCE</div>
+            <div class="row mt-50">
+                <div class="col-33  mb-35" style="margin-left: 165px;">
+                    <img src="Images/columbia.PNG" style="margin-left: 18px;" alt="columbia">
+                    <div class="para1 ltr_spc_3 txt-aln-c mt-5" style="margin-right: 158px;">COLOMBIA</div>
+                </div>
+                <div class="col-33  mb-35" style="margin-left: 120px;">
+                    <img src="Images/india.PNG" alt="inida">
+                    <div class="para1 ltr_spc_3 txt-aln-c mr-200 mt-5">INDIA</div>
+                </div>
+                <div class="col-33  mb-35" style="margin-left: 120px;">
+                    <img src="Images/indo.PNG" alt="indo">
+                    <div class="para1 ltr_spc_3 txt-aln-c  mt-5" style="margin-right: 192px;">INDONESIA</div>
+                </div>
+            </div>
+            <div class="row mt-35">
+                <div class="col-33  mb-35" style="margin-left: 165px;">
+                    <img src="Images/malasia.PNG" alt="malaysia">
+                    <div class="para1 ltr_spc_3 txt-aln-c mt-5" style="margin-right: 158px;">MALAYSIA</div>
+                </div>
+                <div class="col-33  mb-35" style="margin-left: 120px;">
+                    <img src="Images/peru.PNG" alt="peru">
+                    <div class="para1 ltr_spc_3 txt-aln-c mr-200 mt-5">PERU</div>
+                </div>
+                <div class="col-33  mb-35" style="margin-left: 120px;">
+                    <img src="Images/singa.PNG" alt="singa">
+                    <div class="para1 ltr_spc_3 txt-aln-c mt-5" style="margin-right: 192px;">SINGAPORE</div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- numbers -->
+        <div class="row-fd-col awards">
+            <div class="heading1 txt-aln-c" style="margin-top: 40px;">THE NUMBERS ARE GROWING!</div>
+            <div class="row mt-50">
+                <div class="col-33 mb-35">
+                    <div class="para1 ltr_spc_3 txt-aln-c">CUSTOMERS</div>
+                    <div class="heading1 big_num">36 M</div>
+                    <div class="para1 para_align">redBus is trusted by over 36 million happy customers globally</div>
+                </div>
+                <div class="col-33 mb-35 flt-l">
+                    <div class="para1 ltr_spc_3 txt-aln-c">OPERATORS</div>
+                    <div class="heading1 big_num">3500</div>
+                    <div class="para1 para_align">network of over 3500 bus operators worldwide</div>
+
+                </div>
+                <div class="col-33 mb-35 flt-l">
+                    <div class="para1 ltr_spc_3 txt-aln-c">BUS TICKETS</div>
+                    <div class="heading1 big_num">220+ M</div>
+                    <div class="para1 para_align">Over 220 million trips booked using redBus</div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- top of footer -->
+
+        <div class="row-fd-col top_foot " style="padding-top:30px">
+            <div class="row">
+                <div class="col-20 flt-l" style="margin-left:120px">
+                    <div class="highlighted_h">Top Bus Routes</div>
+                    <div class="li">
+                        <li class="para"><a href="# ">Hyderabad to Bangalore Bus</a></li>
+                        <li class="para"><a href="# ">Bangalore to Chennai Bus</a></li>
+                        <li class="para"><a href="# ">Pune to Bangalore Bus</a></li>
+                        <li class="para"><a href="# ">Mumbai to Bangalore Bus</a></li>
+                        <li class="para"><a href="# ">More ></a></li>
+                    </div>
+                </div>
+                <div class="col-20 flt-l mr-20">
+                    <div class="highlighted_h">Top Cities</div>
+                    <div class="li">
+                        <li class="para"><a href="# ">Hyderabad Bus Tickets</a></li>
+                        <li class="para"><a href="# ">Bangalore Bus Tickets</a></li>
+                        <li class="para"><a href="# ">Chennai Bus Tickets</a></li>
+                        <li class="para"><a href="# ">Pune Bus Tickets</a></li>
+                        <li class="para"><a href="# ">More ></a></li>
+                    </div>
+                </div>
+                <div class="col-10 flt-l mr-20">
+                    <div class="highlighted_h">Top RTC's</div>
+                    <div class="li">
+                        <li class="para"><a href="# ">APSRTC</a></li>
+                        <li class="para"><a href="# ">MSRTC</a></li>
+                        <li class="para"><a href="# ">HRTC</a></li>
+                        <li class="para"><a href="# ">UPSRTC</a></li>
+                        <li class="para"><a href="# ">More ></a></li>
+                    </div>
+                </div>
+                <div class="col-10 flt-l mr-20">
+                    <div class="highlighted_h">Other</div>
+                    <div class="li">
+                        <li class="para"><a href="# ">GSRTC</a></li>
+                        <li class="para"><a href="# ">RSRTC</a></li>
+                        <li class="para"><a href="# ">KTCL</a></li>
+                        <li class="para"><a href="# ">PEPSU</a></li>
+                        <li class="para"><a href="# ">More ></a></li>
+                    </div>
+                </div>
+                <div class="col-20 flt-l mr-20">
+                    <div class="highlighted_h">Tempo Traveller in Cities</div>
+                    <div class="li">
+                        <li class="para"><a href="# ">Tempo traveller in Bangalore</a></li>
+                        <li class="para"><a href="# ">Tempo traveller in Chennai</a></li>
+                        <li class="para"><a href="# ">Tempo traveller in Mumbai</a></li>
+                        <li class="para"><a href="# ">Tempo traveller in Hyderabad</a></li>
+                        <li class="para"><a href="# ">Tempo traveller in Ahmedabad</a></li>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <hr>
+            </div>
+            <div class="row-fd-col  top_foot_links pos-rel pb-50">
+                <div class="highlighted_h">Top Operators</div>
+                <div class="row">
+                    <ul>
+                        <li class="para"><a href="# ">&nbsp;SRS Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Evacay Bus&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Kallada Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;KPN Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Orange Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Parveen Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Rajdhani Express&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;VRL Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Chartered Speed Bus&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Bengal Tiger&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;SRM Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Infant Jesus&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Patel Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;JBT Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Shatabdi Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Eagle Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Kankar Roadways&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Komitla&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Shri Krishna Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Humsafar Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Mahasagar Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Raj Express&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Sharma Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Shrinath Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Univeral Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Verma Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Gujrat Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Madurai Radha Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Patel Tours and Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Paulo Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Royal Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Amarnath Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Vaibhav Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Ganesh Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Jabbar Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Jain Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Manish Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Pradhan Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;YBM Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Hebron Transports&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Mahalaxmi Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;MR Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Vivegam Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Jakhar Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Kaleswari Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Mahendra Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Neeta Tours and Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Yamani Travels&nbsp;&nbsp;|</a></li>
+                        <li class="para"><a href="# ">&nbsp;Arthi Travels&nbsp;&nbsp;|</a></li>
+                    </ul>
+                </div>
+                <div class="highlighted_h pos-abs" style="bottom: 15px;right: 65px;">All Operators ></div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+        <!-- footer -->
+
+        <div class="row footer">
+            <div class="col-20 flt-l" style="margin-left:120px">
+                <div class="highlighted_h">About redBus</div>
+                <div class="li">
+                    <li class="para"><a href="# ">About Us</a></li>
+                    <li class="para"><a href="# ">Contact Us</a></li>
+                    <li class="para"><a href="# ">Mobile Version</a></li>
+                    <li class="para"><a href="# ">redBus on Mobile</a></li>
+                    <li class="para"><a href="# ">Sitemap</a></li>
+                    <li class="para"><a href="# ">Offers</a></li>
+                    <li class="para"><a href="# ">Careers</a></li>
+                    <li class="para"><a href="# ">Values </a></li>
+                </div>
+            </div>
+            <div class="col-20 flt-l mr-15">
+                <div class="highlighted_h">Info</div>
+                <div class="li">
+                    <li class="para"><a href="# ">T & C</a></li>
+                    <li class="para"><a href="# ">Privacy Policy</a></li>
+                    <li class="para"><a href="# ">FAQ</a></li>
+                    <li class="para"><a href="# ">Blog</a></li>
+                    <li class="para"><a href="# ">Bus Operator Registration</a></li>
+                    <li class="para"><a href="# ">Agent Registration</a></li>
+                    <li class="para"><a href="# ">Insurance Partner</a></li>
+                    <li class="para"><a href="# ">User Agreement</a></li>
+                </div>
+            </div>
+            <div class="col-10 flt-l mr-15">
+                <div class="highlighted_h">Global Sites</div>
+                <div class="li">
+                    <li class="para"><a href="# ">India</a></li>
+                    <li class="para"><a href="# ">Singapore</a></li>
+                    <li class="para"><a href="# ">Malaysia</a></li>
+                    <li class="para"><a href="# ">Indonesia</a></li>
+                    <li class="para"><a href="# ">Peru</a></li>
+                    <li class="para"><a href="# ">Colombia</a></li>
+                </div>
+            </div>
+            <div class="col-10 flt-l mr-15">
+                <div class="highlighted_h">Our Partners</div>
+                <div class="li">
+                    <li class="para"><a href="# ">Goibibo</a></li>
+                    <li class="para"><a href="# ">Makemytrip</a></li>
+
+                </div>
+            </div>
+            <div class="col-20 flt-l mr-15">
+                <img class="redbus_icon" src="Images/r_logo.png" alt="redbus_icon">
+
+                </img>
+                <div class="para">redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes.
+                </div>
+
+                <div class="row social_icon">
+
+                    <div class="apple_icon icon_set">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="play_icon icon_set">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+
+
+                </div>
+                <div class="para">Ⓒ 2021 ibibogroup All rights reserved</div>
+            </div>
+
+        </div>
+
+
+</body>
+
+</html>
